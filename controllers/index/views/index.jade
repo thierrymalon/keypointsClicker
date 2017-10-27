@@ -1,0 +1,12 @@
+extends ../../../views/main
+
+block title
+    title #{title} -
+
+block js
+
+    script(src='/static/js/main.js')
+
+block content
+    canvas#canvas(width='1918', height='930', style='border:1px solid #222222;', class='canvas')
+    canvas#canvasTimeBar(width='1918', height='30', style='border:1px solid #222222;', class='canvasTimeBar')

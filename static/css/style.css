@@ -1,0 +1,23 @@
+body {
+    font-family: 'CopperPennyDTP.otf';
+    background-color: rgb(34,34,34);
+}
+
+@font-face {
+    font-family: CopperPennyDTP;
+    src: url(../font/CopperPennyDTP.ttf);
+}
+
+.canvas {
+    position: absolute;
+    top: 31px;
+    left:0px;
+    white-space:nowrap;
+}
+
+.canvasTimeBar {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    white-space:nowrap;
+}
